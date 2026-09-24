@@ -77,8 +77,8 @@ RECOVER_BLINKS    = (2, 3)       # quick flutter-blinks after the one full blink
 
 # ---- Sound sensors (KY-038 type: DO pins change state when loud; AO on GP27/GP28 for which-side) ----
 SOUND_ENABLED     = True         # DO pins tested: both rest LOW, pulse HIGH on a clap
-MIC1_DO, MIC1_AO  = 16, 27       # mic 1 = LEFT side of the eye
-MIC2_DO, MIC2_AO  = 17, 28       # mic 2 = RIGHT side
+MIC1_DO, MIC1_AO  = 18, 27       # mic 1 = LEFT side of the eye
+MIC2_DO, MIC2_AO  = 19, 28       # mic 2 = RIGHT side
 STARTLE_BURST_MS  = 150          # ignore the clap's own burst of pulses for this long after a startle
 MOVE_DEAF_MS      = 400          # ignore mic pulses this soon after the servos last moved: the eye's own noise trips the mics
 STARTLE_LOOK      = 1.0          # how far toward the sound side (fraction of the L/R range)
